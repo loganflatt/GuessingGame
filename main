@@ -14,9 +14,14 @@ public class main {
 		int randomNumber= random.nextInt(upperBound);
 
 		while (input != -1 || input != randomNumber) 
-			{
-				input = uInput.nextInt;
-			}
-		
+		{
+			input = uInput.nextInt;
+				
+		}
+		if(input==randomNumber){
+			System.out.println("congratulations you win");
+			System.out.println("you guessed " + count + "times");
+		}
+		System.out.println("goodbye");
 	}
 }

@@ -15,6 +15,7 @@ public class main {
 
 		while (input != -1 || input != randomNumber) 
 			{
+				input = uInput.nextInt;
 			}
 		
 	}

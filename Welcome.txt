@@ -1,0 +1,2 @@
+Welcome to the github site! Github is a powerful tool for collaboration in
+software development. This lab is meant to get you introduced to it.

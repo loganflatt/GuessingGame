@@ -8,8 +8,14 @@ public class main {
 		Random random = new Random();
 		
 		int upperBound = 100;
+		int count = 0;
+		int input = -2;
 		
 		int randomNumber= random.nextInt(upperBound);
+
+		while (input != -1 || input != randomNumber) 
+			{
+			}
 		
 	}
 }

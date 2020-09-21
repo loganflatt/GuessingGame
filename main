@@ -15,7 +15,16 @@ public class main {
 
 		while (input != -1 || input != randomNumber) 
 		{
-			input = uInput.nextInt;
+			System.out.println("Guess a number");
+			input = uInput.nextInt();
+			if(input > randomNumber)
+				System.out.println("Higher");
+			else if(input < randomNumber)
+				System.out.println("Lower");
+			
+			count++;
+
+
 				
 		}
 		if(input==randomNumber){

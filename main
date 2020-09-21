@@ -1,0 +1,15 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class main {
+
+	public static void main(String[] args) {
+		Scanner uInput = new Scanner(System.in);
+		Random random = new Random();
+		
+		int upperBound = 100;
+		
+		int randomNumber= random.nextInt(upperBound);
+		
+	}
+}

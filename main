@@ -1,36 +1,34 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		Scanner uInput = new Scanner(System.in);
 		Random random = new Random();
 		
-		int upperBound = 100;
+		int upperBound = 101;
 		int count = 0;
 		int input = -2;
 		
 		int randomNumber= random.nextInt(upperBound);
 
-		while (input != -1 || input != randomNumber) 
-		{
+		while (input != -1 && input != randomNumber) {
 			System.out.println("Guess a number");
 			input = uInput.nextInt();
 			if(input > randomNumber)
-				System.out.println("Higher");
+				System.out.println("Guess is too high!");
 			else if(input < randomNumber)
-				System.out.println("Lower");
+				System.out.println("Guess is too low!");
 			
 			count++;
-
-
-				
 		}
+		
 		if(input==randomNumber){
 			System.out.println("congratulations you win");
-			System.out.println("you guessed " + count + "times");
+			System.out.println("you guessed " + count + " times");
 		}
+		
 		System.out.println("goodbye");
 	}
 }

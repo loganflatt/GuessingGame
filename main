@@ -1,6 +1,11 @@
 import java.util.Scanner;
 import java.util.Random;
 
+/*
+ *	Contributing members:
+ *	David, Patrick, Mark, Brandon, Matt
+ */
+
 public class Main {
 
 	public static void main(String[] args) {
